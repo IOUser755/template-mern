@@ -1,0 +1,35 @@
+# GitHub Labels Configuration
+# Use: gh label create <name> --color <color> --description <description>
+#
+# One-time commands to seed these labels via gh CLI:
+# gh label create "type:feature" --color "0E8A16" --description "New feature or enhancement"
+# gh label create "type:fix" --color "D93F0B" --description "Bug fix"
+# gh label create "type:docs" --color "0075CA" --description "Documentation changes"
+# gh label create "prio:high" --color "B60205" --description "High priority"
+# gh label create "area:client" --color "FBCA04" --description "Frontend/client-side code"
+# gh label create "area:server" --color "FEF2C0" --description "Backend/server-side code"
+
+labels:
+  - name: "type:feature"
+    color: "0E8A16"
+    description: "New feature or enhancement"
+
+  - name: "type:fix"
+    color: "D93F0B"
+    description: "Bug fix"
+
+  - name: "type:docs"
+    color: "0075CA"
+    description: "Documentation changes"
+
+  - name: "prio:high"
+    color: "B60205"
+    description: "High priority"
+
+  - name: "area:client"
+    color: "FBCA04"
+    description: "Frontend/client-side code"
+
+  - name: "area:server"
+    color: "FEF2C0"
+    description: "Backend/server-side code"
